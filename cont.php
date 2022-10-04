@@ -1,108 +1,77 @@
-<!--
-=========================================================
-* * Black Dashboard - v1.0.1
-=========================================================
 
-* Product Page: https://www.creative-tim.com/product/black-dashboard
-* Copyright 2019 Creative Tim (https://www.creative-tim.com)
-
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
--->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
-  <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
   <title>
-    Black Dashboard by Creative Tim
+    Not Bed Dashboard
   </title>
   <!--     Fonts and icons     -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-  <!-- Nucleo Icons -->
-  <link href="../assets/css/nucleo-icons.css" rel="stylesheet" />
+  <!-- Icons -->
+  <link href="assets/css/nucleo-icons.css" rel="stylesheet" />
   <!-- CSS Files -->
-  <link href="../assets/css/black-dashboard.css?v=1.0.0" rel="stylesheet" />
-  <!-- CSS Just for demo purpose, don't include it in your project -->
-  <link href="../assets/demo/demo.css" rel="stylesheet" />
+  <link href="assets/css/black-dashboard.css?v=3.0.0" rel="stylesheet" />
+  <link href="assets/demo/demo.css" rel="stylesheet" />
 </head>
 
 <body class="">
   <div class="wrapper">
     <div class="sidebar">
-      <!--
-        Tip 1: You can change the color of the sidebar using: data-color="blue | green | orange | red"
-    -->
       <div class="sidebar-wrapper">
         <div class="logo">
-          <a href="javascript:void(0)" class="simple-text logo-mini">
-            CT
+          <a href="index.html" class="simple-text logo-mini">
+            Pj.
           </a>
-          <a href="javascript:void(0)" class="simple-text logo-normal">
-            Creative Tim
-          </a>
+          <a href="index.html" class="simple-text logo-normal">
+            Not Bed Team</a>
         </div>
         <ul class="nav">
           <li>
-            <a href="./dashboard.html">
+            <a href="index.html">
               <i class="tim-icons icon-chart-pie-36"></i>
-              <p>Dashboard</p>
+              <p>메인 대시보드</p>
             </a>
           </li>
           <li>
-            <a href="./icons.html">
-              <i class="tim-icons icon-atom"></i>
-              <p>Icons</p>
-            </a>
-          </li>
-          <li class="active ">
-            <a href="./map.html">
-              <i class="tim-icons icon-pin"></i>
-              <p>Maps</p>
+            <a href="https://fullipkim.github.io/notbed/team.html">
+              <i class="tim-icons icon-satisfied"></i>
+              <p>팀 낫베드 소개</p>
             </a>
           </li>
           <li>
-            <a href="./notifications.html">
-              <i class="tim-icons icon-bell-55"></i>
-              <p>Notifications</p>
+            <a href="https://fullipkim.github.io/notbed/about.html">
+              <i class="tim-icons icon-single-copy-04"></i>
+              <p>프로젝트 소개</p>
             </a>
           </li>
           <li>
-            <a href="./user.html">
-              <i class="tim-icons icon-single-02"></i>
-              <p>User Profile</p>
+            <a href="https://fullipkim.github.io/notbed/blog.html">
+              <i class="tim-icons icon-bold"></i>
+              <p>현장스케치</p>
             </a>
           </li>
           <li>
-            <a href="./tables.html">
-              <i class="tim-icons icon-puzzle-10"></i>
-              <p>Table List</p>
+            <a href="https://fullipkim.github.io/notbed/">
+              <i class="tim-icons icon-settings"></i>
+              <p>팀 포트폴리오 사이트</p>
+            </a>
+          </li>
+          <li class="active" >
+            <a href="cont.php">
+              <i class="tim-icons icon-app"></i>
+              <p>컨트롤러</p>
             </a>
           </li>
           <li>
-            <a href="./typography.html">
-              <i class="tim-icons icon-align-center"></i>
-              <p>Typography</p>
-            </a>
-          </li>
-          <li>
-            <a href="./rtl.html">
-              <i class="tim-icons icon-world"></i>
-              <p>RTL Support</p>
-            </a>
-          </li>
-          <li class="active-pro">
-            <a href="./upgrade.html">
-              <i class="tim-icons icon-spaceship"></i>
-              <p>Upgrade to PRO</p>
+            <a href="templates/index.html">
+              <i class="tim-icons icon-video-66"></i>
+              <p>병실 실시간 스트리밍</p>
             </a>
           </li>
         </ul>
@@ -120,7 +89,7 @@
                 <span class="navbar-toggler-bar bar3"></span>
               </button>
             </div>
-            <a class="navbar-brand" href="javascript:void(0)">Maps</a>
+            <a class="navbar-brand" href="dashboard.html"><i class="fa fa-hospital"></i> NotBed Dashboard</a>
           </div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-bar navbar-kebab"></span>
@@ -129,11 +98,6 @@
           </button>
           <div class="collapse navbar-collapse" id="navigation">
             <ul class="navbar-nav ml-auto">
-              <li class="search-bar input-group">
-                <button class="btn btn-link" id="search-button" data-toggle="modal" data-target="#searchModal"><i class="tim-icons icon-zoom-split" ></i>
-                  <span class="d-lg-none d-md-block">Search</span>
-                </button>
-              </li>
               <li class="dropdown nav-item">
                 <a href="javascript:void(0)" class="dropdown-toggle nav-link" data-toggle="dropdown">
                   <div class="notification d-none d-lg-block d-xl-block"></div>
@@ -143,28 +107,25 @@
                   </p>
                 </a>
                 <ul class="dropdown-menu dropdown-menu-right dropdown-navbar">
-                  <li class="nav-link"><a href="#" class="nav-item dropdown-item">Mike John responded to your email</a></li>
-                  <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">You have 5 more tasks</a></li>
-                  <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Your friend Michael is in town</a></li>
-                  <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Another notification</a></li>
-                  <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Another one</a></li>
+                  <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">이 대시보드는 데모입니다.</a></li>
+                  <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">made by notbed team</a></li>
                 </ul>
               </li>
               <li class="dropdown nav-item">
                 <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
                   <div class="photo">
-                    <img src="../assets/img/anime3.png" alt="Profile Photo">
+                    <img src="assets/img/anime3.png" alt="Profile Photo">
                   </div>
                   <b class="caret d-none d-lg-block d-xl-block"></b>
                   <p class="d-lg-none">
-                    Log out
+                    로그아웃
                   </p>
                 </a>
                 <ul class="dropdown-menu dropdown-navbar">
-                  <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Profile</a></li>
-                  <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Settings</a></li>
+                  <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">프로필</a></li>
+                  <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">설정</a></li>
                   <li class="dropdown-divider"></li>
-                  <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Log out</a></li>
+                  <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">로그아웃</a></li>
                 </ul>
               </li>
               <li class="separator d-lg-none"></li>
@@ -186,35 +147,69 @@
       </div>
       <!-- End Navbar -->
       <div class="content">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="card card-plain">
-              <div class="card-header">
-                Google Maps
-              </div>
-              <div class="card-body">
-                <div id="map" class="map"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <footer class="footer">
-        <div class="container-fluid">
+	      <div class="row">
+		      <div class="col-12">
+			      <div class="card card-chart">
+				      <div class="card-header ">
+					      <div class="row">
+						      <div class="col-sm-6 text-left">
+							      <h5 class="card-category">NotBed Controlor</h5>
+							      <h2 class="card-title">낫베드 제어 컨트롤</h2>
+								  <h4 class="card">&#42; 버튼을 눌러주세요.</h4>
+						      </div>
+					      </div>
+				      </div>
+				      <div class="card-body">
+						  <iframe style="display: none;" name="cont"></iframe>
+						  <form action="postest.php" name="ser" method="post">
+							  <!--<input type="submit" value="전송">-->
+							  <body>
+								  <p align="center">▼왼쪽으로 전환 올리는 버튼▼</p>
+								  <input class="btn btn-primary btn-block" type="submit" name="ser" value="q">
+								  <p align="center">▼왼쪽으로 전환 내리는 버튼▼</p>
+								  <input class="btn btn-primary btn-block" type="submit" name="ser" value="a"><br/>
+								  <p align="center">▼오른쪽으로 전환하는 버튼▼</p>
+								  <input class="btn btn-primary btn-block" type="submit" name="ser" value="w">
+								  <p align="center">▼오른쪽으로 전환 내리는 버튼▼</p>
+								  <input class="btn btn-primary btn-block" type="submit" name="ser" value="s"><br/><br/>
+								  <p align="center">▼상체 일으키는 버튼▼</p>
+								  <input class="btn btn-primary btn-block" type="submit" name="ser" value="t" >
+								  <p align="center">▼상체 눕히는 버튼▼</p>
+								  <input class="btn btn-primary btn-block" type="submit" name="ser" value="g"><br/><br/>
+								  <p align="center">▼무릎 구부리는 버튼▼</p>
+								  <input class="btn btn-primary btn-block" type="submit" name="ser" value="r">
+								  <p align="center">▼무릎 펴는 버튼▼</p>
+								  <input class="btn btn-primary btn-block" type="submit" name="ser" value="f"><br/><br/>
+								  <p align="center">▼범퍼 올리는 버튼▼</p>
+								  <input class="btn btn-primary btn-block" type="submit" name="ser" value="y">
+								  <p align="center">▼범퍼 내리는 버튼▼</p>
+								  <input class="btn btn-primary btn-block" type="submit" name="ser" value="h"><br/>
+							  </body>
+					      </form>
+			      </div>
+		      </div>
+	      </div>
+      </div>    <footer class="footer">
+      <div class="container-fluid">
           <ul class="nav">
             <li class="nav-item">
-              <a href="javascript:void(0)" class="nav-link">
-                Creative Tim
+              <a href="https://fullipkim.github.io/portfolio/" class="nav-link">
+                Kiry.
               </a>
             </li>
             <li class="nav-item">
-              <a href="javascript:void(0)" class="nav-link">
-                About Us
+              <a href="https://inae0615.github.io/inae_Lee/" class="nav-link">
+                Inae Lee.
               </a>
             </li>
             <li class="nav-item">
-              <a href="javascript:void(0)" class="nav-link">
-                Blog
+              <a href="https://kkaemmi.github.io/project_1/" class="nav-link">
+                Kkaemmi.
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://goo05041.github.io/kwanwoo/" class="nav-link">
+                Gwanwoo.
               </a>
             </li>
           </ul>
@@ -222,8 +217,8 @@
             ©
             <script>
               document.write(new Date().getFullYear())
-            </script>2018 made with <i class="tim-icons icon-heart-2"></i> by
-            <a href="javascript:void(0)" target="_blank">Creative Tim</a> for a better web.
+            </script>Project <i class="tim-icons icon-heart-2"></i> by
+            <a href="https://fullipkim.github.io/notbed/" target="_blank">Not Bed Team</a>.
           </div>
         </div>
       </footer>
@@ -235,7 +230,7 @@
         <i class="fa fa-cog fa-2x"> </i>
       </a>
       <ul class="dropdown-menu">
-        <li class="header-title"> Sidebar Background</li>
+        <li class="header-title"> 색감전환</li>
         <li class="adjustments-line">
           <a href="javascript:void(0)" class="switch-trigger background-color">
             <div class="badge-colors text-center">
@@ -252,38 +247,24 @@
           <span class="badge dark-badge ml-2"></span>
           <span class="color-label">DARK MODE</span>
         </li>
-        <li class="button-container">
-          <a href="https://www.creative-tim.com/product/black-dashboard" target="_blank" class="btn btn-primary btn-block btn-round">Download Now</a>
-          <a href="https://demos.creative-tim.com/black-dashboard/docs/1.0/getting-started/introduction.html" target="_blank" class="btn btn-default btn-block btn-round">
-            Documentation
-          </a>
-        </li>
-        <li class="header-title">Thank you for 95 shares!</li>
-        <li class="button-container text-center">
-          <button id="twitter" class="btn btn-round btn-info"><i class="fab fa-twitter"></i> &middot; 45</button>
-          <button id="facebook" class="btn btn-round btn-info"><i class="fab fa-facebook-f"></i> &middot; 50</button>
-          <br>
-          <br>
-          <a class="github-button" href="https://github.com/creativetimofficial/black-dashboard" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
-        </li>
       </ul>
     </div>
   </div>
   <!--   Core JS Files   -->
-  <script src="../assets/js/core/jquery.min.js"></script>
-  <script src="../assets/js/core/popper.min.js"></script>
-  <script src="../assets/js/core/bootstrap.min.js"></script>
-  <script src="../assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+  <script src="assets/js/core/jquery.min.js"></script>
+  <script src="assets/js/core/popper.min.js"></script>
+  <script src="assets/js/core/bootstrap.min.js"></script>
+  <script src="assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
   <!--  Google Maps Plugin    -->
   <!-- Place this tag in your head or just before your close body tag. -->
   <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
   <!-- Chart JS -->
-  <script src="../assets/js/plugins/chartjs.min.js"></script>
+  <script src="assets/js/plugins/chartjs.min.js"></script>
   <!--  Notifications Plugin    -->
-  <script src="../assets/js/plugins/bootstrap-notify.js"></script>
+  <script src="assets/js/plugins/bootstrap-notify.js"></script>
   <!-- Control Center for Black Dashboard: parallax effects, scripts for the example pages etc -->
-  <script src="../assets/js/black-dashboard.min.js?v=1.0.0"></script><!-- Black Dashboard DEMO methods, don't include it in your project! -->
-  <script src="../assets/demo/demo.js"></script>
+  <script src="assets/js/black-dashboard.min.js?v=1.0.0"></script><!-- Black Dashboard DEMO methods, don't include it in your project! -->
+  <script src="assets/demo/demo.js"></script>
   <script>
     $(document).ready(function() {
       $().ready(function() {
@@ -398,7 +379,8 @@
   <script>
     $(document).ready(function() {
       // Javascript method's body can be found in assets/js/demos.js
-      demo.initGoogleMaps();
+      demo.initDashboardPageCharts();
+
     });
   </script>
   <script src="https://cdn.trackjs.com/agent/v3/latest/t.js"></script>
